@@ -15,7 +15,7 @@
   <ion-toolbar>
     <ion-item lines="none">
       <ion-avatar slot="start">
-        <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+        <img src="./../../../../assets/images/user.jpg">
       </ion-avatar>
       <ion-label>Lucas Dias <p>nivel roxo</p>
       </ion-label>
@@ -41,7 +41,7 @@
 </ion-header>
 
 <ion-content>
-  <ion-grid>
+  <ion-grid *ngIf>
     <ion-row>
       <h3>Personal online</h3>
       <ion-slides pager="true" [options]="slideOpts">
@@ -56,30 +56,7 @@
         </ion-slide>
       </ion-slides>
     </ion-row>
-    <ion-row>
-      <h3>Programas</h3>
-      <ion-slides pager="true" [options]="slideOpts">
-        <ion-slide>
-          <ion-card>
-            <img class="image" src="./../../../../assets/images/image1.jpg">
-            
-            <ion-label class="centered">
-              <ion-icon name="add-circle-outline"></ion-icon>
-              Novo Treino</ion-label>
-          </ion-card>
-        </ion-slide>
-      </ion-slides>
-    </ion-row>
-    <ion-row>
-      <h3>Conteúdos</h3>
-      <ion-slides pager="true" [options]="slideOpts">
-        <ion-slide>
-          <ion-card>
 
-          </ion-card>
-        </ion-slide>
-      </ion-slides>
-    </ion-row>
   </ion-grid>
 
 </ion-content>
