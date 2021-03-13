@@ -1,18 +1,16 @@
 <ion-header class="ion-no-border">
-
-  <ion-toolbar style="text-align: center;">
-    <ion-buttons slot="start">
-      <ion-menu-button></ion-menu-button>
-    </ion-buttons>
-    <ion-title>home</ion-title>
-    <ion-buttons slot="end">
-      <ion-button>
-        <ion-icon name="notifications-outline"></ion-icon>
-      </ion-button>
-    </ion-buttons>
-  </ion-toolbar>
-
   <ion-toolbar>
+    <ion-item lines="none" style="text-align: center;" class="ion-no-padding">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>     <img width="70px" src="./../../../../assets/images/logo.png"></ion-title>
+      <ion-buttons slot="end">
+        <ion-button>
+          <ion-icon name="notifications-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-item>
     <ion-item lines="none">
       <ion-avatar slot="start">
         <img src="./../../../../assets/images/user.jpg">
@@ -21,23 +19,6 @@
       </ion-label>
     </ion-item>
   </ion-toolbar>
-
-
-  <ion-toolbar>
-    <ion-item lines="none">
-      <ion-grid class="menu">
-        <ion-row style="text-align: center;">
-          <ion-col>
-            <ion-icon name="body-outline"></ion-icon>MEU CORPO
-          </ion-col>
-          <ion-col>
-            <ion-icon name="trophy-outline"></ion-icon>OBJETIVOS E CONQUISTAS
-          </ion-col>
-        </ion-row>
-      </ion-grid>
-    </ion-item>
-  </ion-toolbar>
-
 </ion-header>
 
 <ion-content>
@@ -48,10 +29,11 @@
         <ion-slide>
           <ion-card>
             <img class="image" src="./../../../../assets/images/image1.jpg">
-            
+
             <ion-label class="centered">
               <ion-icon name="add-circle-outline"></ion-icon>
-              Novo Treino</ion-label>
+              Novo Treino
+            </ion-label>
           </ion-card>
         </ion-slide>
       </ion-slides>
