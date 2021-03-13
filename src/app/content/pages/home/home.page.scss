@@ -1,0 +1,37 @@
+ion-card{
+    box-shadow: none !important;
+}
+
+.content{
+  width: 100% !important; 
+  height: 150px !important;
+  background-color: black !important;
+  display: flex
+}
+
+.menu{
+    font-size: 10px;
+}
+
+
+ion-card{
+    background-color: black;
+    border-radius: 10%;
+    height: 125px;
+    width: 60%;
+}
+
+.image{
+    width: 100%;
+  
+}
+
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
