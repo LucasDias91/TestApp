@@ -35,3 +35,38 @@ ion-card{
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  ion-toolbar{
+    border-bottom-left-radius:20px !important;
+    border-bottom-right-radius:20px !important
+  }
+
+  .menu{
+    background-color: black !important;
+    border-bottom-left-radius:20px !important;
+    border-bottom-right-radius:20px !important;
+    border-top-left-radius:20px !important;
+    border-top-right-radius:20px !important;
+  }
+
+  .menu-title{
+    color: var(--ion-color-primary);
+  }
+
+  .nivel{
+    color: var(  --ion-color-tertiary);
+    font-weight: 300 !important;
+   // font-size: 0.4cm;
+  }
+
+  .displayName{
+    font-weight: 600;
+    //font-size: 0.6cm;
+  }
+
+  .ion-icon {
+    border-radius: 50%;
+    border: 1px solid red;
+  }
+
+  
