@@ -33,6 +33,9 @@ ion-card{
     color: white;
     left: 50%;
     transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    font-size: 0.3cm;
   }
 
   .bottom {
@@ -40,8 +43,9 @@ ion-card{
     bottom: 5%;
     color: white;
     left: 20%;
-    font-size: 0.4cm;
+    font-size: 0.3cm;
     transform: translate(-50%, -50%);
+    font-weight: 600;
   }
   ion-toolbar{
     border-bottom-left-radius:20px !important;
