@@ -41,21 +41,34 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-grid *ngIf>
-    <ion-row>
-      <h3>Personal online</h3>
-      <ion-slides pager="true" [options]="slideOpts">
-        <ion-slide>
-          <ion-card>
-            <img class="image" src="./../../../../assets/images/image1.jpg">
-            <ion-label class="centered">
-              <ion-icon name="add-circle-outline"></ion-icon>
-              Novo Treino
-            </ion-label>
-          </ion-card>
-        </ion-slide>
-      </ion-slides>
-    </ion-row>
-  </ion-grid>
+<ion-content padding-top>
+  <!-- List of Text Items -->
+<ion-list>
+  <ion-list-header>
+    <ion-label>PERSONAL ONLINE  <ion-icon name="add"></ion-icon></ion-label>
+  </ion-list-header>
+  <ion-item lines="none"  class="ion-no-padding item">
+    <ion-slides pager="true" [options]="slideOpts">
+      <ion-slide>
+        <ion-card>
+          <img src="./../../../../assets/images/image1.jpg">
+          <ion-label class="centered">
+            <ion-icon name="add-circle-outline"></ion-icon>
+            Novo Treino
+          </ion-label>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card>
+          <img src="./../../../../assets/images/image1.jpg">
+          <ion-label class="centered">
+            <ion-icon name="add-circle-outline"></ion-icon>
+            Novo Treino
+          </ion-label>
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+  </ion-item>
+
+</ion-list>
 </ion-content>

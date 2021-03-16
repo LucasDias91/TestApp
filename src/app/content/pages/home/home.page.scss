@@ -23,7 +23,6 @@ ion-card{
 
 .image{
     width: 100%;
-  
 }
 
 
@@ -69,4 +68,12 @@ ion-card{
     border: 1px solid red;
   }
 
-  
+  ion-list,ion-item, ion-slides, ion-slide{
+    background-color:black !important;
+  }
+
+  .item{
+    --padding-end: 0px;
+    --inner-padding-end: 0px;
+    // here other custom CSS from documentation
+  }
