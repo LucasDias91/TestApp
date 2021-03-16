@@ -1,5 +1,9 @@
 .active{
-    color: var(--ion-color-secondary) !important;
+    color: var(--ion-color-primary) !important;
     outline:none!important;
     background-color: #fffaef;
+}
+
+ion-item, ion-row, ion-list{
+    background-color: black !important;
 }
