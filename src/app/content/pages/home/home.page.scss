@@ -103,3 +103,13 @@ ion-list-header{
   font-weight: 700 !important;
   font-size: 0.4cm;
 }
+
+.info{
+  background-color: var(--ion-color-primary);
+  border-bottom-left-radius:20px !important;
+  border-bottom-right-radius:20px !important;
+  border-top-left-radius:20px !important;
+  border-top-right-radius:20px !important;
+  font-size: 0.2cm;
+  padding: 2px;
+}

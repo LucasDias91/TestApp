@@ -45,16 +45,23 @@
   <!-- List of Text Items -->
 <ion-list>
   <ion-list-header>
-    <ion-label>PERSONAL ONLINE  <ion-icon name="add"></ion-icon></ion-label>
+    <ion-label>PERSONAL ONLINE  <ion-icon  name="add"></ion-icon></ion-label>
   </ion-list-header>
   <ion-item lines="none"  class="ion-no-padding item">
     <carousel [arrows]="false" [loop]="true" [height]='150'>
       <div class="carousel-cell">
           <img src="./../../../../assets/images/1.jpeg">
-          <ion-label class="centered">
-            <ion-icon name="add-circle-outline"></ion-icon>
-            NOVO TREINO
-          </ion-label>
+          <div class="centered">
+            <ion-label>
+              <ion-icon name="add-circle-outline" style="font-size: 1.0cm;"></ion-icon>
+            </ion-label>
+            <ion-label style="margin-left: 40px; margin-top: -35px;">
+              NOVO  <p style="font-size: 0.3cm; color: white;">
+                TREINO
+              </p> 
+            </ion-label>
+  
+          </div>
       </div>
       <div class="carousel-cell">
         <img src="./../../../../assets/images/2.jpeg" >
@@ -65,7 +72,7 @@
   </carousel>
   </ion-item>
   <ion-list-header>
-    <ion-label>PROGRAMAS  <ion-icon name="add"></ion-icon></ion-label>
+    <ion-label>PROGRAMAS  <span class="info">Novo</span></ion-label>
   </ion-list-header>
   <ion-item lines="none"  class="ion-no-padding item">
     <carousel [arrows]="false" [loop]="true" [height]='150'>
