@@ -35,6 +35,14 @@ ion-card{
     transform: translate(-50%, -50%);
   }
 
+  .bottom {
+    position: absolute;
+    bottom: 5%;
+    color: white;
+    left: 20%;
+    font-size: 0.4cm;
+    transform: translate(-50%, -50%);
+  }
   ion-toolbar{
     border-bottom-left-radius:20px !important;
     border-bottom-right-radius:20px !important
@@ -77,3 +85,12 @@ ion-card{
     --inner-padding-end: 0px;
     // here other custom CSS from documentation
   }
+
+.carousel-cell{
+ // height: 150px !important;
+  border-radius: 20% !important;
+}
+
+carousel{
+  background-color: black !important;
+}

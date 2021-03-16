@@ -41,34 +41,47 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding-top>
+<ion-content>
   <!-- List of Text Items -->
 <ion-list>
   <ion-list-header>
     <ion-label>PERSONAL ONLINE  <ion-icon name="add"></ion-icon></ion-label>
   </ion-list-header>
   <ion-item lines="none"  class="ion-no-padding item">
-    <ion-slides pager="true" [options]="slideOpts">
-      <ion-slide>
-        <ion-card>
-          <img src="./../../../../assets/images/image1.jpg">
+    <carousel [arrows]="false" [loop]="true" [height]='150'>
+      <div class="carousel-cell">
+          <img src="./../../../../assets/images/1.jpeg">
           <ion-label class="centered">
             <ion-icon name="add-circle-outline"></ion-icon>
-            Novo Treino
+            NOVO TREINO
           </ion-label>
-        </ion-card>
-      </ion-slide>
-      <ion-slide>
-        <ion-card>
-          <img src="./../../../../assets/images/image1.jpg">
-          <ion-label class="centered">
-            <ion-icon name="add-circle-outline"></ion-icon>
-            Novo Treino
-          </ion-label>
-        </ion-card>
-      </ion-slide>
-    </ion-slides>
+      </div>
+      <div class="carousel-cell">
+        <img src="./../../../../assets/images/2.jpeg" >
+        <ion-label class="bottom"   style="left: 30% !important">
+          HIPERTROFIA
+        </ion-label>
+    </div>
+  </carousel>
   </ion-item>
-
+  <ion-list-header>
+    <ion-label>Programas  <ion-icon name="add"></ion-icon></ion-label>
+  </ion-list-header>
+  <ion-item lines="none"  class="ion-no-padding item">
+    <carousel [arrows]="false" [loop]="true" [height]='150'>
+      <div class="carousel-cell">
+          <img src="./../../../../assets/images/3.jpg">
+          <ion-label class="bottom"  style="left: 50% !important">
+            LEVANTAMENTO DE PESO
+          </ion-label>
+      </div>
+      <div class="carousel-cell">
+        <img class="img" src="./../../../../assets/images/4.jpg">
+        <ion-label class="bottom"  style="left: 30% !important">
+          CROSSFIT
+        </ion-label>
+    </div>
+  </carousel>
+  </ion-item>
 </ion-list>
 </ion-content>
